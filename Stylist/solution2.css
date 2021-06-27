@@ -1,0 +1,13 @@
+* a {
+    color: red;
+    font-style: italic;
+} 
+
+
+nav a {
+    font-size: 32px;
+    font-weight: bold;
+    color:green;
+    font-style: normal;
+}
+
