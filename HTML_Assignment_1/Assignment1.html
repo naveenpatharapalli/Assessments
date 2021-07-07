@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Assignment-1</title>
+</head>
+<body>
+    <!-- What is HTML 
+    Ans :- HTML (Hypertext Markup Language) is the language code that is used to structure a web page and its content-->
+        <div class="container"> 
+            <h1 class="heading"> Assignment-1 <small>By Naveen Kumar</small></h1>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <h4>Q1 a) What is HTML ?</h4>
+            <p>Ans:-HTML is a hyper text markup language used to design user interface and and its content
+                in a requrired structure
+            </p>
+        </div>
+
+        <div class="container">
+            <h4> b) Explain Table,Lists,form,input,label and self ending ?</h4>
+            <h5>Ans:- Table:-</h5>
+            <p>HTML tables is used to arrange data into rows and columns.</p>
+            <table class="table table-bordered table-hover table-condensed table-responsive" style="width:100%">
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>nave</td>
+                  <td>kumar</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>Arun</td>
+                  <td>Kudiyal</td>
+                  <td>29</td>
+                </tr>
+
+            </table>
+
+            <h5>Ans:- Lists:-</h5>
+            <p>Lists are used to group the set of related items</p>
+
+            <ul class="list">
+                <li class="list-item">Coffee</li>
+                <li class="list-item">Tea</li>
+                <li class="list-item">Milk</li>
+              </ul>
+
+              <ol class="list">
+                <li class="list-item">Coffee</li>
+                <li class="list-item">Tea</li>
+                <li class="list-item">Milk</li>
+              </ol>
+
+              <h5>Ans:- Form,Input,Label:-</h5>
+              <p>Forms are used to collect the information from the user and will be processed to backend
+                  <br>
+                Input are used to take input from the user
+                <br>
+                Label are used to let the user to know what to fill in the input box available</p>
+              <div class="form-group">
+              <form>
+                <label>First name:</label><br>
+                <input type="text" class = "form-control"><br>
+                <label>Last name:</label><br>
+                <input type="text" class = "form-control"><br>
+              </form>
+            </div>
+
+        <h5>Self Ending tags</h5>
+        <p> The tags which doesnt require closing tag are know as self ending tags like hr , br tags etc...</p>
+    </div> 
+
+    <hr>
+
+    <h3>Q2 a) - Explain the term HTML Quotes and also explain the following terms too :</h3>
+    <div class="container">
+        <h3 class="text-center">HTML Quotes</h3>
+        <h4>HTML Quotes are used to insert texts in quoted format in a website which highlights from normal text</h4>
+         <h4>The following are some examples:</h4>
+         <ul style="font-size: 16px;">
+            <li>&lt;q&gt;tag:is used to insert quotes around the text.</li>
+            <li>&lt;address&gt;tag:applies some styling to the address so it looks different from others.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center">HTML Sample tags as per</h3> Assignment-1
+         <ul style="font-size: 16px;">
+            <li>&lt;lt&gt;tag:it is used to display less than sign.</li>
+            <li>&lt;gt&gt;tag:it is used to display greater than sign.</li>
+            <li>&lt;lte&gt;tag:it is used to display less than or equal to sign.</li>
+            <li>&lt;gte&gt;tag:it is used to display greater than or equal to sign.</li>
+            <li>&lt;ldquo&gt;tag:it used to display double quotes to the left side of the text.</li>
+            <li>&lt;rdquo&gt;tag:it used to display double quotes to the right side of the text.</li>
+        </ul>
+    </div>
+    <h3>Q. 3 - Describe the various HTML Elements required to embed the video in an document and
+        further explain the following HTML attributes :
+        video
+            ● controls
+            ● src
+            ● poster
+            ● width
+            ● height
+            </h3>
+            <div class="container">
+                <h3 class="text-center">Video Element</h3>
+                <ul style="font-size: 16px;">
+                    <li>video tag is used to embed video content in a document</li>
+                </ul>
+                <h4>Attributes of video element:</h4>
+                <ul style="font-size:14px">
+                    <li>src:attribute specifies the URL of the source.</li>
+                    <li>poster:attribute specifies the an image to be shown while the video is downloading or until the user hits the play button.</li>
+                    <li>width:attribute specifies the width of the video</li>
+                    <li>height:attribute specifies the height of the video</li>
+                    <li>controls:attribute is a boolean attribute and it is used along with the &lt;video&gt;tag or &lt;audio&gt;tag </li>
+                </ul><br>
+                <video width="800" controls poster="1.PNG">
+                    <source src="1.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                  </video>
+            </div>
+
+                <h3>Q.4 ) What do you mean by HTML Attributes? Explain the importance of HTML Attributes in
+                    terms of functionalities. Write a HTML document code explaining the various HTML attributes.</h3>
+        
+            <div class="container">
+                <h4>HTML Attributes:</h4>
+                <ul style="font-size: 16px;">
+                    <li>All HTML elements can have attributes</li>
+                        <li>provide additional information about elements</li> 
+                        <li>Attributes are always specified in the start tag</li>
+                        <li>Attributes usually come in name/value pairs like: name="value"</li>
+                </ul>
+            </div>
+            
+            <div class="container">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr class="bg-primary">
+                             <td>Tag</td>
+                             <td>attribute</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-secondary">
+                            <td> Anchor Tag &lt;a&gt;</td>
+                            <td> href</td>
+                        </tr>
+
+                        <tr class="bg-secondary">
+                            <td> img Tag &lt;img&gt;</td>
+                            <td> src, alt , width, height etc..</td>
+                        </tr>
+
+                        <tr class="bg-secondary">
+                            <td> link  Tag &lt;link&gt;</td>
+                            <td> rel </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+           
+            </div>
+</body>
+</html>
